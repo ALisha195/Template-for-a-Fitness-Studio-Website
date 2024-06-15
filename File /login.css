@@ -1,1 +1,132 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Default styles for larger screens */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e53935;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.login-container {
+    text-align: center;
+}
+
+.login-box {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    max-width: 400px;
+    width: 100%;
+}
+
+/* Header styles */
+h1 {
+    color: #e53935;
+    margin-bottom: 20px;
+}
+
+/* Input styles */
+.input-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    width: 100%; /* Ensure the input fields stay within the container */
+    box-sizing: border-box; /* Include padding in the width calculation */
+}
+
+i {
+    color: #e53935;
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+input[type="text"],
+input[type="password"] {
+    flex: 1;
+    padding: 15px;
+    border: none;
+    border-bottom: 2px solid #333;
+    outline: none;
+    font-size: 16px;
+    width: 100%; /* Ensure the input fields take up the full width */
+}
+
+/* Button styles */
+button {
+    background-color: #333;
+    color: #fff;
+    padding: 15px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #e53935;
+}
+
+/* Signup link styles */
+.signup-link {
+    margin-top: 20px;
+}
+
+a {
+    color: #e53935;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Media queries for responsiveness */
+@media (max-width: 768px) {
+    /* Adjust styles for smaller screens */
+    .login-box {
+        padding: 20px;
+    }
+    
+    h1 {
+        font-size: 24px;
+    }
+    
+    .input-container {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    
+    i {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+    
+    input[type="text"],
+    input[type="password"] {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    
+    button {
+        width: 100%;
+    }
+    
+    .signup-link {
+        text-align: center;
+        margin-top: 10px; /* Adjust margin for smaller screens */
+    }
+}
 
