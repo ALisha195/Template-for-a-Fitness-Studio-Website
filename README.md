@@ -16,11 +16,14 @@ Before you begin, ensure you have met the following requirements:
 
  ### ScreenShot
 
-<img src="ScreenShot/screenshot1.jpg" width="500" />
-<img src="ScreenShot/screenshot2.jpg" width="500" />
-<img src="ScreenShot/screenshot3.jpg" width="500" />
-<img src="ScreenShot/screenshot4.jpg" width="500" />
-<img src="ScreenShot/screenshot5.jpg" width="500" />
+<img src="Screenshot/1.jpg" width="500" />
+<img src="Screenshot/2.jpg" width="500" />
+<img src="Screenshot/3.jpg" width="500" />
+<img src="Screenshot/4.jpg" width="500" />
+<img src="Screenshot/5.jpg" width="500" />
+<img src="Screenshot/6.jpg" width="500" />
+<img src="Screenshot/7.jpg" width="500" />
+<img src="Screenshot/8.jpg" width="500" />
 
 ### Run Locally
 
