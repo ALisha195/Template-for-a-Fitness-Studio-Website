@@ -1,13 +1,54 @@
-# Template-for-a-Fitness-Studio-Website
-Full Stack Web Development
+<div align="center">
+  
+  ![GitHub repo size](https://img.shields.io/github/repo-size/codewithsadee/fitlife)
+  ![GitHub stars](https://img.shields.io/github/stars/codewithsadee/fitlife?style=social)
+  ![GitHub forks](https://img.shields.io/github/forks/codewithsadee/fitlife?style=social)
+[![Twitter Follow](https://img.shields.io/twitter/follow/codewithsadee_?style=social)](https://twitter.com/intent/follow?screen_name=codewithsadee_)
+  [![YouTube Video Views](https://img.shields.io/youtube/views/dmif_yP7cZw?style=social)](https://youtu.be/dmif_yP7cZw)
 
-The purpose of Fitness Center Management System is to automate the existing manual system by the help of computerized equipments and full-fledged computer software, 
-fulfilling their requirements, so that their valuable data/information can be stored for a longer period with easy accessing and manipulation of the same. 
-<br>
-The required software and hardware are easily available and easy to work with. Fitness Center Management System, as described above, can lead to error free, secure, reliable and fast management system. It can assist the user to concentrate on their other activities 
-rather to concentrate on the record keeping. 
-<br>
-Thus it will help organization in better utilization of resources. The organization can 
-maintain computerized records without redundant entries. That means that one need not 
-be distracted by information that is not relevant, while being able to reach the 
-information.
+  <br />
+  <br />
+
+  <h2 align="center">Fitlife - Fitness Website</h2>
+
+  Fitlife is a fully responsive fitness website, <br />Responsive for all devices, build using HTML, CSS, and JavaScript.
+
+  <a href="https://codewithsadee.github.io/fitlife/"><strong>➥ Live Demo</strong></a>
+
+</div>
+
+<br />
+
+### Demo Screeshots
+
+![Fitlife Desktop Demo](./readme-images/desktop.png "Desktop Demo")
+
+### Prerequisites
+
+Before you begin, ensure you have met the following requirements:
+
+* [Git](https://git-scm.com/downloads "Download Git") must be installed on your operating system.
+
+### Run Locally
+
+To run **Fitlife** locally, run this command on your git bash:
+
+Linux and macOS:
+
+```bash
+sudo git clone https://github.com/codewithsadee/fitlife.git
+```
+
+Windows:
+
+```bash
+git clone https://github.com/codewithsadee/fitlife.git
+```
+
+### Contact
+
+If you want to contact with me you can reach me at [Twitter](https://www.twitter.com/codewithsadee).
+
+### License
+
+This project is **free to use** and does not contains any license.
