@@ -14,6 +14,14 @@ Before you begin, ensure you have met the following requirements:
 
 * [Git](https://git-scm.com/downloads "Download Git") must be installed on your operating system.
 
+ ### ScreenShot
+
+<img src="ScreenShot/screenshot1.jpg" width="500" />
+<img src="ScreenShot/screenshot2.jpg" width="500" />
+<img src="ScreenShot/screenshot3.jpg" width="500" />
+<img src="ScreenShot/screenshot4.jpg" width="500" />
+<img src="ScreenShot/screenshot5.jpg" width="500" />
+
 ### Run Locally
 
 To run **Fitness Studio Website** locally, run this command on your git bash:
