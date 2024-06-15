@@ -1,0 +1,96 @@
+/* Default styles for larger screens */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e53935;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.signup-container {
+    text-align: center;
+}
+
+.signup-box {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    max-width: 400px;
+    width: 100%;
+    margin: 0 20px;
+}
+
+h1 {
+    color: #e53935;
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.input-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #e53935;
+}
+
+i {
+    color: #e53935;
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    flex: 1;
+    padding: 15px;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    width: 100%;
+}
+
+button {
+    background-color: #333;
+    color: #fff;
+    padding: 15px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+    width: 100%;
+}
+
+button:hover {
+    background-color: #e53935;
+}
+
+.login-link {
+    margin-top: 20px;
+}
+
+a {
+    color: #e53935;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Responsive styles for smaller screens */
+@media screen and (max-width: 768px) {
+    .signup-box {
+        padding: 20px; /* Reduce padding for smaller screens */
+    }
+
+    h1 {
+        font-size: 24px; /* Decrease font size for smaller screens */
+    }
+}
